@@ -1,4 +1,8 @@
 /* Global Styles */
+html, body {
+    height: 100%;
+}
+
 *, h1, h2, h3, h4, h5, h6, p {
     font-family: 'Poppins', sans-serif;
 }
@@ -7,6 +11,8 @@
     --pink: #fa2a65;
     --white: #ffffff;
     --darkblue: #2d597f;
+    --bluegray: #83a7ba;
+    --lightgray: #c2dcfc;
 }
 /* -------------------------------------- */
 
@@ -51,13 +57,13 @@
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); */
     position: relative;
     z-index: 100;
 }
 
 #hero-content {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 10%;
 }
 
@@ -80,6 +86,7 @@
     color: var(--white);
     font-weight: 500;
     border: none;
+    margin-top: 40px;
 }
 
 .larger-text {
@@ -94,17 +101,22 @@
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-    margin-top: -100px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    margin-top: -100px; */
     color: var(--white);
     position: relative;
+    z-index: 99;
 }
 
 .content-wrap {
     position: absolute;
-    top: 20%;
+    /* top: 50px; */
     width: 80%;
     right: 0;
+}
+
+#sectionTwo .content-wrap {
+    margin-top: 40%;
 }
 
 #sectionTwo .content-wrap .section-title h3 {
@@ -125,6 +137,8 @@
 
 #sectionTwo .section-tabs .rows .icon i {
     font-size: 2em;
+    padding-top: 18px;
+
 }
 
 #sectionTwo .section-tabs .rows .icon i::before {
@@ -152,6 +166,83 @@
 /* #sectionTwo .rows .icon, #sectionTwo .rows .icon-info {
     display: inline-block;
 } */
+
+/* -------------------------------------- */
+
+/* Section Three */
+#sectionThree {
+    /* background: rgb(176,211,255);
+    background: linear-gradient(36deg, rgba(176,211,255,1) 0%, rgba(224,224,224,1) 48%, rgba(254,254,254,1) 100%); */
+    /* height: 100vh; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); */
+}
+
+#sectionThree, #sectionThree .content-wrap {
+    background: var(--lightgray);
+}
+
+#sectionThree .content-wrap {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#sectionThree .content-wrap .section-text {
+    width: 80%;
+    margin: auto;
+}
+
+#sectionThree .content-wrap .section-text h3 {
+    font-size: 1.8em;
+}
+
+#sectionThree .workout-icons .circle-icon {
+    background-color: var(--bluegray);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+}
+
+#sectionThree .workout-icons {
+    margin-top: 10px;
+}
+
+#sectionThree .workout-icons .circle-icon img {
+    padding-top: 15px;
+}
+
+#sectionThree .workout-icons h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    margin-top: 5px;
+}
+
+/* -------------------------------------- */
+
+/* Section Four */
+#sectionFour {
+    background-image: url(./images/woman-back.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+#sectionFour .content-wrap {
+    color: var(--white);
+    width: 100%;
+    margin-top: 50px;
+}
+
+#sectionFour .content-wrap h3 {
+    font-size: 1.8em;
+}
 
 /* -------------------------------------- */
 
