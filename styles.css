@@ -17,6 +17,11 @@ html, body {
     --darkblue: #2d597f;
     --bluegray: #83a7ba;
     --lightgray: #c2dcfc;
+    --darkpink: #c72956;
+}
+
+button {
+    cursor: pointer;
 }
 
 .pink-btn {
@@ -25,6 +30,10 @@ html, body {
     color: var(--white);
     font-weight: 500;
     border: none;
+}
+
+.pink-btn:hover {
+    background-color: var(--darkpink);
 }
 /* -------------------------------------- */
 
@@ -123,7 +132,7 @@ html, body {
 }
 
 #sectionTwo .content-wrap {
-    margin-top: 40%;
+    margin-top: 20%;
 }
 
 #sectionTwo .content-wrap .section-title h3 {
@@ -273,10 +282,12 @@ html, body {
     width: 90%;
     position: relative;
     margin: auto;
+    text-align: center;
 }
 
 #sectionFive .content-wrap h3 {
     font-size: 1.8em;
+    line-height: 1.1em;
 }
 
 #sectionFive .content-wrap p {
@@ -295,7 +306,6 @@ html, body {
 
 #sectionFive button {
     width: 80%;
-    margin: auto;
 }
 
 /* -------------------------------------- */
@@ -342,8 +352,71 @@ html, body {
     position: relative;
 }
 
+#sectionSeven .filter {
+    background-color: rgba(63, 63, 63, 0.349);
+    height: 100%;
+    width: 100%;
+}
+
 #sectionSeven .content-wrap {
-    
+    color: var(--white);
+    top: 40%;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+#sectionSeven .content-wrap h3 {
+    font-size: 1.8em;
+}
+
+#sectionSeven .content-wrap>* {
+    margin-bottom: 10px;
+}
+
+#sectionSeven .content-wrap button {
+    width: 80%;
+}
+
+/* -------------------------------------- */
+
+/* Footer */
+#footer {
+    background-color: var(--darkblue);
+    position: relative;
+    padding: 20px 0;
+}
+
+#footer h2 {
+    font-size: 2em;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Playfair Display';
+    margin-bottom: 10px;
+}
+
+#footer .socials {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+#footer .socials .social-icon {
+    text-align: center;
+    flex: 1;
+}
+
+#footer .socials .social-icon a {
+    color: var(--white);
+    font-size: 12px;
+}
+
+.copyright {
+    color: var(--white);
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
 }
 
 /* -------------------------------------- */
