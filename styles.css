@@ -1,4 +1,8 @@
 /* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
 }
@@ -13,6 +17,14 @@ html, body {
     --darkblue: #2d597f;
     --bluegray: #83a7ba;
     --lightgray: #c2dcfc;
+}
+
+.pink-btn {
+    padding: 10px 30px;
+    background-color: var(--pink);
+    color: var(--white);
+    font-weight: 500;
+    border: none;
 }
 /* -------------------------------------- */
 
@@ -81,11 +93,6 @@ html, body {
 }
 
 #hero-content button {
-    padding: 10px 30px;
-    background-color: var(--pink);
-    color: var(--white);
-    font-weight: 500;
-    border: none;
     margin-top: 40px;
 }
 
@@ -137,7 +144,7 @@ html, body {
 
 #sectionTwo .section-tabs .rows .icon i {
     font-size: 2em;
-    padding-top: 18px;
+    padding-top: 5px;
 
 }
 
@@ -171,14 +178,10 @@ html, body {
 
 /* Section Three */
 #sectionThree {
-    /* background: rgb(176,211,255);
-    background: linear-gradient(36deg, rgba(176,211,255,1) 0%, rgba(224,224,224,1) 48%, rgba(254,254,254,1) 100%); */
-    /* height: 100vh; */
+    background: rgb(176,211,255);
+    background: linear-gradient(36deg, rgba(176,211,255,1) 0%, rgba(224,224,224,1) 48%, rgba(254,254,254,1) 100%);
+    /* height: 100vh;
     /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%); */
-}
-
-#sectionThree, #sectionThree .content-wrap {
-    background: var(--lightgray);
 }
 
 #sectionThree .content-wrap {
@@ -237,11 +240,110 @@ html, body {
 #sectionFour .content-wrap {
     color: var(--white);
     width: 100%;
-    margin-top: 50px;
+    position: relative;
+    margin: auto;
+    top: 10%;
+    width: 90%;
 }
 
 #sectionFour .content-wrap h3 {
     font-size: 1.8em;
+}
+
+#sectionFour .content-wrap button {
+    margin-top: 30px;
+}
+
+#sectionFour .content-wrap p {
+    margin-top: 10px;
+}
+
+/* -------------------------------------- */
+
+/* Section Five */
+#sectionFive {
+    background: rgb(194,220,252);
+    background: linear-gradient(156deg, rgba(194,220,252,1) 0%, rgba(224,224,224,1) 56%, rgba(254,254,254,1) 100%);
+    height: 75vh;
+    position: relative;
+}
+
+#sectionFive .content-wrap {
+    top: 10%;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+#sectionFive .content-wrap h3 {
+    font-size: 1.8em;
+}
+
+#sectionFive .content-wrap p {
+    margin: 10px 0 0 0;
+}
+
+#sectionFive .content-wrap .price {
+    margin: 25px 0 20px 0;
+    text-align: center;
+}
+
+#sectionFive .xl-text {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+#sectionFive button {
+    width: 80%;
+    margin: auto;
+}
+
+/* -------------------------------------- */
+
+/* Section Six */
+#sectionSix {
+    background-image: url(./images/guy-bicep-curls.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+#sectionSix .content-wrap {
+    color: var(--white);
+    top: 40%;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+#sectionSix .content-wrap h4 {
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'Playfair Display';
+}
+
+#sectionSix .content-wrap h5 {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#sectionSix .content-wrap>* {
+    margin-bottom: 10px;
+}
+/* -------------------------------------- */
+
+/* Section Seven */
+#sectionSeven {
+    background-image: url(./images/woman-stretching-medicine-ball.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+#sectionSeven .content-wrap {
+    
 }
 
 /* -------------------------------------- */
