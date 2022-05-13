@@ -117,8 +117,6 @@ button {
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-    margin-top: -100px; */
     color: var(--white);
     position: relative;
     z-index: 99;
@@ -251,7 +249,7 @@ button {
     width: 100%;
     position: relative;
     margin: auto;
-    top: 10%;
+    top: 15%;
     width: 90%;
 }
 
@@ -273,7 +271,7 @@ button {
 #sectionFive {
     background: rgb(194,220,252);
     background: linear-gradient(156deg, rgba(194,220,252,1) 0%, rgba(224,224,224,1) 56%, rgba(254,254,254,1) 100%);
-    height: 75vh;
+    height: 60vh;
     position: relative;
 }
 

@@ -1,0 +1,82 @@
+@media only screen and (min-width: 426px) {
+    button {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    #hero {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        margin-top: -100px;
+    }
+
+    #hero-content {
+        margin-top: 100px;
+        margin-left: 15%;
+    }
+
+    #hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    #hero-content h3 {
+        font-size: 20px;
+    }
+
+    #hero-content button {
+        margin-top: 20px;
+    }
+
+    /* Section Two */
+    #sectionTwo {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        margin-top: -100px;
+    }
+
+    #sectionTwo .content-wrap {
+        margin-top: 12%;
+    }
+
+    #sectionTwo .content-wrap .section-title h3 {
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+
+    #sectionTwo .content-wrap .section-title p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    #sectionTwo .section-tabs .rows {
+        margin: 15px 0;
+    }
+
+    #sectionTwo .section-tabs .rows .icon i {
+        font-size: 2.5em;
+        padding-top: 15px;
+    }
+
+    .fa-hand-holding-heart {
+        font-size: 30px !important;
+    }
+
+    #sectionTwo .section-tabs .rows .icon {
+        width: 55px !important;
+    }
+
+    #sectionTwo .section-tabs .rows .icon-info {
+        width: 100%;
+    }
+
+    #sectionTwo .section-tabs .rows .icon-info {
+        padding: 15px;
+    }
+
+    #sectionTwo .section-tabs .rows .icon-info h5 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    #sectionTwo .section-tabs .rows .icon-info p {
+        font-size: 18px;
+    }
+}
