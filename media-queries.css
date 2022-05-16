@@ -6,7 +6,6 @@
     /* Hero */
     #hero {
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-        margin-top: -100px;
     }
 
     #hero-content {
@@ -25,6 +24,7 @@
     #hero-content button {
         margin-top: 20px;
     }
+    /* -------------------------------------- */
 
     /* Section Two */
     #sectionTwo {
@@ -78,5 +78,197 @@
 
     #sectionTwo .section-tabs .rows .icon-info p {
         font-size: 18px;
+    }
+    /* -------------------------------------- */
+
+    /* Section Three */
+    #sectionThree {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        margin-top: -100px;
+        z-index: 99;
+    }
+
+    #sectionThree .content-wrap {
+        padding-top: 15%;
+        padding-bottom: 150px;
+    }
+
+    #sectionThree .content-wrap .section-text h3 {
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+
+    #sectionThree .content-wrap .section-text p {
+        font-size: 20px;
+    }
+
+    #sectionThree .content-wrap .flex {
+        margin-top: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #sectionThree .content-wrap .flex .workout-icons {
+        min-width: 33%;
+    }
+    /* -------------------------------------- */
+
+    /* Section Four */
+    #sectionFour {
+        height: 60vh;
+        margin-top: -100px;
+    }
+
+    #sectionFour .content-wrap {
+        top: 20%;
+    }
+
+    #sectionFour .content-wrap h3 {
+        font-size: 2.2em;
+    }
+
+    #sectionFour .content-wrap p {
+        font-size: 20px;
+    }
+    /* -------------------------------------- */
+
+    /* Section Five */
+    #sectionFive {
+        height: 75vh;
+    }
+
+    #sectionFive .content-wrap {
+        top: 20%;
+    }
+
+    #sectionFive .content-wrap h3 {
+        font-size: 2.2em;
+    }
+
+    #sectionFive .content-wrap p {
+        font-size: 20px;
+    }
+
+    #sectionFive .content-wrap .price {
+        margin: 40px 0;
+    }
+    /* -------------------------------------- */
+
+    /* Section Six */
+    #sectionSix .content-wrap h4 {
+        font-size: 2em;
+    }
+
+    #sectionSix .content-wrap h5 {
+        font-size: 1.6em;
+    }
+
+    #sectionSix .content-wrap p {
+        font-size: 20px;
+    }
+    /* -------------------------------------- */
+
+    /* Section Seven */
+    #sectionSeven .content-wrap h3 {
+        font-size: 2.2em;
+    }
+
+    #sectionSeven .content-wrap p {
+        font-size: 20px;
+    }
+    /* -------------------------------------- */
+
+    /* Footer */
+    #footer .socials {
+        width: 25%;
+    }
+    /* -------------------------------------- */
+}
+
+@media only screen and (min-width: 769px) {
+    /* Navigation */
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation #logo,
+    .navigation .nav-menu-btn {
+        padding: 30px 40px;
+    }
+    /* -------------------------------------- */
+    /* Section Two */
+    #sectionTwo .content-wrap {
+        width: auto;
+    }
+    /* -------------------------------------- */
+
+    /* Section Three */
+    #sectionThree .content-wrap {
+        padding-top: 12%;
+        width: 90%;
+        margin: auto;
+    }
+    /* -------------------------------------- */
+
+    /* Section 4, 5, 6, 7 */
+    #sectionFour .content-wrap,
+    #sectionFive .content-wrap,
+    #sectionSix .content-wrap,
+    #sectionSeven .content-wrap {
+        width: 70%;
+    }
+
+    #sectionFive .content-wrap button,
+    #sectionSeven .content-wrap button {
+        width: 50%;
+    }
+    /* -------------------------------------- */
+
+}
+
+@media only screen and (min-width: 1441px) {
+    /* Hero & Navigation */
+    .navigation #logo,
+    .navigation .nav-menu-btn {
+        padding: 50px 100px;
+    }
+
+    #hero-content {
+        margin-top: 150px;
+    }
+    /* -------------------------------------- */
+
+    /* Section Two */
+    #sectionTwo {
+        height: 75vh;
+        margin-top: -130px;
+    }
+
+    #sectionTwo .content-wrap {
+        margin-top: 7%;
+    }
+    /* -------------------------------------- */
+
+    /* Section Three */
+    #sectionThree .content-wrap {
+        padding-top: 8%;
+    }
+    /* -------------------------------------- */
+
+    /* Section 4, 5, 6, 7 */
+    #sectionFive {
+        height: 50vh;
+    }
+
+    #sectionFive .content-wrap button,
+    #sectionSeven .content-wrap button {
+        width: 33%;
+    }
+
+    /* Footer */
+    #footer .socials {
+        width: 10%;
     }
 }
