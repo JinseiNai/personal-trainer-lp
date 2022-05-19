@@ -5,7 +5,7 @@
 
     /* Hero */
     #hero {
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     }
 
     #hero-content {
@@ -28,7 +28,7 @@
 
     /* Section Two */
     #sectionTwo {
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
         margin-top: -100px;
     }
 
@@ -83,7 +83,7 @@
 
     /* Section Three */
     #sectionThree {
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
         margin-top: -100px;
         z-index: 99;
     }
