@@ -215,7 +215,10 @@
     /* -------------------------------------- */
 
     /* Section 4, 5, 6, 7 */
-    #sectionFour .content-wrap,
+    #sectionFour .content-wrap {
+        width: 30%;
+    }
+
     #sectionFive .content-wrap,
     #sectionSix .content-wrap,
     #sectionSeven .content-wrap {
