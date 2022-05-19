@@ -133,6 +133,12 @@ button {
     margin-top: 20%;
 }
 
+#sectionTwo .content-wrap .section-title {
+    background-color:rgba(63, 63, 63, 0.8);
+    padding: 10px 20px 5px;
+    border-radius: 5px 0 0 5px;
+}
+
 #sectionTwo .content-wrap .section-title h3 {
     font-size: 1.8em;
 }

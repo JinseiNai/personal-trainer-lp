@@ -122,6 +122,8 @@
 
     #sectionFour .content-wrap {
         top: 20%;
+        width: 70%;
+        margin-left: 15%;
     }
 
     #sectionFour .content-wrap h3 {
@@ -200,7 +202,7 @@
     /* -------------------------------------- */
     /* Section Two */
     #sectionTwo .content-wrap {
-        width: auto;
+        max-width: 50%;
     }
     /* -------------------------------------- */
 
@@ -226,6 +228,11 @@
     }
     /* -------------------------------------- */
 
+    /* Footer */
+    #footer .socials {
+        width: 15%;
+    }
+
 }
 
 @media only screen and (min-width: 1441px) {
@@ -242,22 +249,30 @@
 
     /* Section Two */
     #sectionTwo {
-        height: 75vh;
-        margin-top: -190px;
+        height: 100vh;
+        margin-top: -180px;
     }
 
     #sectionTwo .content-wrap {
-        margin-top: 7%;
+        margin-top: 12%;
     }
     /* -------------------------------------- */
 
     /* Section Three */
+    #sectionThree {
+        margin-top: -150px;
+    }
+
     #sectionThree .content-wrap {
         padding-top: 8%;
     }
     /* -------------------------------------- */
 
     /* Section 4, 5, 6, 7 */
+    #sectionFour .content-wrap {
+        max-width: 30%;
+    }
+
     #sectionFive {
         height: 50vh;
     }
